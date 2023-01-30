@@ -1,4 +1,5 @@
 # Golf With Your Friend Josh
+A goofy mini putt game that is all about the aesthetics and my reliable custom physics engine.
 
 <div align="center">
 
