@@ -129,7 +129,7 @@ namespace PathCreation.Examples {
             meshHolder.transform.localScale = Vector3.one;
 
             // Ensure mesh renderer and filter components are assigned
-            if (!meshHolder.gameObject.GetComponent<MeshFilter> ()) {
+            if (!meshHolder.GetComponent<MeshFilter> ()) {
                 meshHolder.gameObject.AddComponent<MeshFilter> ();
             }
             if (!meshHolder.GetComponent<MeshRenderer> ()) {

@@ -1,0 +1,46 @@
+Fix:
+
+Ease camera around
+    ease to current position
+    always look at focus point
+        focus point animates
+Start facing the wrong way on holes
+    Hole model not oriented the right way
+Bezier main menu camera path
+Make sure the particle spawners are working as intended (clouds, cheggs, stars)
+Reduce poly count on golf ball
+golf ball LODs?
+Fix the ball physics if at all
+    As ball rolls faster, more energy is absorbed by the speed of rotation.
+    Hitting a corner should average the ray reflections to get the correct deflection
+Ball average reflection from all collisions
+Make graphics quality settings better -> fix LODs so that LOD biases can be used
+Fix frame rate?
+    Haunted house and lake are the biggest frame hogs
+Add grass
+
+Features:
+
+Levels:
+
+Boss fight against Josh Folkins
+Build your own level?
+
+Extra Stuffs:
+Fire pit
+Depending on who wins josh says:
+W: "You have bested me on the course of golf"
+L: "Wow, I guess you really suck"
+Player that does the most damage wins the last level
+Better Level select menu with pictures
+Lobster gets in the way
+Change shape of josh
+Draw on josh
+Texture painting on Josh
+switch ball and josh
+chat with josh - text to speech with voice acting
+Online Multiplayer
+Mike Jamieson
+Lightsaber as club
+
+Send me on my way by rusted root - credits

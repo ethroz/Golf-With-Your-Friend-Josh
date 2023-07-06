@@ -10,13 +10,13 @@ TagManager:
   - Menu
   - Text
   - Slider
-  - Bar
   - Hand
   - Club
   - Terrain
   - Water
-  - PPVolume
-  - ContinueText
+  - CheggBounds
+  - Reflection
+  - SpawnManager
   layers:
   - Default
   - TransparentFX

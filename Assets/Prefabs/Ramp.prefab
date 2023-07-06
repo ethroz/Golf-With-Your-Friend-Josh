@@ -26,6 +26,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7823068932510283794}
   - {fileID: 4946407957003180117}
@@ -43,12 +44,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2470687040977834221}
   - component: {fileID: 5066350181952765793}
-  m_Layer: 10
+  m_Layer: 3
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 1
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2470687040977834221
 Transform:
@@ -60,6 +61,7 @@ Transform:
   m_LocalRotation: {x: -3.5527133e-14, y: 1, z: 0.00000031292436, w: 0.0000001947072}
   m_LocalPosition: {x: 1.999999, y: 0.5789, z: 2.0000002}
   m_LocalScale: {x: 10, y: 60, z: 10}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 512831473023501565}
   m_RootOrder: 5
@@ -87,12 +89,12 @@ GameObject:
   m_Component:
   - component: {fileID: 6740190205098288690}
   - component: {fileID: 2814660167427056290}
-  m_Layer: 10
+  m_Layer: 3
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 1
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6740190205098288690
 Transform:
@@ -104,6 +106,7 @@ Transform:
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
   m_LocalPosition: {x: 2, y: 0.099999994, z: 0}
   m_LocalScale: {x: 10, y: 209.99998, z: 10}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 512831473023501565}
   m_RootOrder: 1
@@ -131,12 +134,12 @@ GameObject:
   m_Component:
   - component: {fileID: 7645232172840483009}
   - component: {fileID: 1395640839770742533}
-  m_Layer: 10
+  m_Layer: 3
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 1
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7645232172840483009
 Transform:
@@ -148,6 +151,7 @@ Transform:
   m_LocalRotation: {x: -0.78820515, y: 0, z: 0, w: 0.61541253}
   m_LocalPosition: {x: 2, y: 0.603, z: -0.0008}
   m_LocalScale: {x: 10, y: 209.99998, z: 10}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 512831473023501565}
   m_RootOrder: 4
@@ -180,7 +184,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 1
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5790466738222328989
 Transform:
@@ -192,6 +196,7 @@ Transform:
   m_LocalRotation: {x: -0.78820544, y: 0, z: 0, w: 0.61541224}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 190, y: 200, z: 50}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 512831473023501565}
   m_RootOrder: 0
@@ -226,7 +231,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 1
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7823068932510283794
 Transform:
@@ -238,6 +243,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 190, y: 200, z: 50}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 112341291706629914}
   m_RootOrder: 0
@@ -261,6 +267,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -315,12 +322,12 @@ GameObject:
   m_Component:
   - component: {fileID: 6582004486985601862}
   - component: {fileID: 6341107245855724002}
-  m_Layer: 10
+  m_Layer: 3
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 1
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6582004486985601862
 Transform:
@@ -332,6 +339,7 @@ Transform:
   m_LocalRotation: {x: -0.7071068, y: -0.00000014611096, z: -0.00000014611099, w: 0.7071067}
   m_LocalPosition: {x: -2, y: 0.099999994, z: 0}
   m_LocalScale: {x: 10, y: 209.99998, z: 10}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 512831473023501565}
   m_RootOrder: 2
@@ -359,12 +367,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2558231063146192172}
   - component: {fileID: 5994017717492513628}
-  m_Layer: 10
+  m_Layer: 3
   m_Name: Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 1
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2558231063146192172
 Transform:
@@ -376,6 +384,7 @@ Transform:
   m_LocalRotation: {x: -0.5, y: 0.5000001, z: 0.50000006, w: 0.49999994}
   m_LocalPosition: {x: 0, y: 0.10000023, z: 2}
   m_LocalScale: {x: 10, y: 209.99998, z: 10}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 512831473023501565}
   m_RootOrder: 7
@@ -403,12 +412,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2931694926615361475}
   - component: {fileID: 4668711646158758013}
-  m_Layer: 10
+  m_Layer: 3
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 1
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2931694926615361475
 Transform:
@@ -420,6 +429,7 @@ Transform:
   m_LocalRotation: {x: -0.0000005215405, y: -0.00000020663215, z: -9.059418e-14, w: 1}
   m_LocalPosition: {x: -2.000001, y: 0.5789, z: 2.0000002}
   m_LocalScale: {x: 10, y: 60, z: 10}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 512831473023501565}
   m_RootOrder: 6
@@ -451,7 +461,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &512831473023501565
 Transform:
@@ -463,6 +473,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5790466738222328989}
   - {fileID: 6740190205098288690}
@@ -485,12 +496,12 @@ GameObject:
   m_Component:
   - component: {fileID: 863818539774549396}
   - component: {fileID: 6953214900014140363}
-  m_Layer: 10
+  m_Layer: 3
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 1
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &863818539774549396
 Transform:
@@ -502,6 +513,7 @@ Transform:
   m_LocalRotation: {x: -0.78820515, y: 0, z: 0, w: 0.61541253}
   m_LocalPosition: {x: -2, y: 0.603, z: -0.0008}
   m_LocalScale: {x: 10, y: 209.99998, z: 10}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 512831473023501565}
   m_RootOrder: 3
@@ -531,12 +543,12 @@ GameObject:
   - component: {fileID: 4858369243156722847}
   - component: {fileID: 1972685053337101666}
   - component: {fileID: 151810219707289615}
-  m_Layer: 10
+  m_Layer: 3
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 1
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4946407957003180117
 Transform:
@@ -548,6 +560,7 @@ Transform:
   m_LocalRotation: {x: 0.70710677, y: 0.00000013767878, z: 0.00000013767877, w: -0.7071068}
   m_LocalPosition: {x: 0, y: 0.340094, z: 0}
   m_LocalScale: {x: 10, y: 209.99998, z: 10}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 112341291706629914}
   m_RootOrder: 1
@@ -571,6 +584,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -586,7 +600,7 @@ MeshRenderer:
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 0.75
+  m_ScaleInLightmap: 2
   m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0

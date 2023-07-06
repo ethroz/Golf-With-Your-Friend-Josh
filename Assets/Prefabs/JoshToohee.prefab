@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8736798889958978651}
   m_Layer: 0
   m_Name: LeftHand
-  m_TagString: Hand
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,6 +29,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0.10763337, z: -0, w: 0.9941907}
   m_LocalPosition: {x: 0.03266555, y: 0.88159996, z: -0.12968175}
   m_LocalScale: {x: 50, y: 100, z: 50}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8736798891217225994}
   m_RootOrder: 2
@@ -52,6 +53,7 @@ MeshRenderer:
   m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -122,6 +124,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0.10763337, z: -0, w: 0.9941907}
   m_LocalPosition: {x: 0.1249901, y: 1.025, z: -0.4973415}
   m_LocalScale: {x: 0.2, y: 0.4, z: 0.2}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8736798891217225994}
   m_RootOrder: 0
@@ -145,6 +148,7 @@ MeshRenderer:
   m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -189,7 +193,7 @@ GameObject:
   - component: {fileID: 8736798891002584639}
   m_Layer: 0
   m_Name: RightHand
-  m_TagString: Hand
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -204,6 +208,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0.10763337, z: -0, w: 0.9941907}
   m_LocalPosition: {x: 0.058, y: 0.881, z: -0.1271}
   m_LocalScale: {x: 50, y: 100, z: 50}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8736798891217225994}
   m_RootOrder: 1
@@ -227,6 +232,7 @@ MeshRenderer:
   m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -280,7 +286,7 @@ GameObject:
   - component: {fileID: 8736798891217225994}
   m_Layer: 0
   m_Name: JoshToohee
-  m_TagString: Josh
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -295,6 +301,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.775, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8736798890577395371}
   - {fileID: 8736798891002584638}
